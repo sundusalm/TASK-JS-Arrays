@@ -10,6 +10,9 @@
  */
 function isArrayLengthOdd(numbers) {
   // Your code here
+  const numbers = [1, 2, 3, 4, 5, 7];
+  const odds = numbers.filter((num) => num % 2 === 1);
+  console.log(odds);
 }
 
 /**
@@ -24,6 +27,9 @@ function isArrayLengthOdd(numbers) {
  */
 function isArrayLengthEven(numbers) {
   // Your code here
+  const numbers = [1, 2, 3];
+  numbers.push = ("1", "2", "3");
+  console.log(numbers.length);
 }
 
 /**
@@ -36,6 +42,9 @@ function isArrayLengthEven(numbers) {
  */
 function addLailaToArray(instructors) {
   // Your code here
+  const instructors = ["Mshary", "Hasan"];
+  instructors.push = "Laila";
+  console.log(instructors);
 }
 
 /**
@@ -48,6 +57,8 @@ function addLailaToArray(instructors) {
  */
 function eliminateTeam(teams) {
   // Your code here
+  const teams = ["Brazil", "Germany", "Italy"];
+  console.log(plants.pop("Italy"));
 }
 
 /**
